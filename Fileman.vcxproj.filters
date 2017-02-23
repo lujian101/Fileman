@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{05057ebc-fc68-4e4a-b414-6abf25034140}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\xpl">
+      <UniqueIdentifier>{16ca70e2-14d4-4774-bdee-b47c2c719e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\datatree">
+      <UniqueIdentifier>{6e90d57d-8239-45b8-b114-37325509ee30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\datatree\xpl">
+      <UniqueIdentifier>{257b3746-38bf-4915-8b2c-cb8d8b40d9d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\datatree\rb_tree">
+      <UniqueIdentifier>{f6917132-6958-42cb-b0ef-8480c11d349c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tinyXml">
+      <UniqueIdentifier>{3ffda356-1c03-472f-8479-ca97e1925070}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lua">
+      <UniqueIdentifier>{6dbe0bef-de5c-4052-9c19-2704fdc29b5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sub">
+      <UniqueIdentifier>{02d17837-d70e-43fc-a50f-a60cf349d107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Fileman.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FilemanDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\StringUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Misc.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\WinUtil.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MltiTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\dt_query.h">
+      <Filter>utils\datatree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\dt_rbtree.h">
+      <Filter>utils\datatree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\dt_stack.h">
+      <Filter>utils\datatree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\dt_core.h">
+      <Filter>utils\datatree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\dt_cpp_helper.hpp">
+      <Filter>utils\datatree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\dt_encoding.h">
+      <Filter>utils\datatree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\xpl\xpl.h">
+      <Filter>utils\datatree\xpl</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\rb_tree\red_black_tree.h">
+      <Filter>utils\datatree\rb_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\rb_tree\stack.h">
+      <Filter>utils\datatree\rb_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\datatree\rb_tree\misc.h">
+      <Filter>utils\datatree\rb_tree</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Rflx.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\Rflext.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyXml\tinystr.h">
+      <Filter>tinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyXml\tinyxml.h">
+      <Filter>tinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyXml\tinyxmlAdd.h">
+      <Filter>tinyXml</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lapi.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lauxlib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lcode.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldebug.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ldo.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lfunc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lgc.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llex.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\llimits.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lmem.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lobject.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lopcodes.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lparser.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstate.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lstring.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltable.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\ltm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lua.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\luaconf.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lualib.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lundump.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lvm.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="lua\lzio.h">
+      <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\lua_tinker.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\ScriptApi.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="utils\LuaFunctor.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyThread\fast_mutex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyThread\tinythread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="_File.h">
+      <Filter>Source Files\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="_Script.h">
+      <Filter>Source Files\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="_Settings.h">
+      <Filter>Source Files\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="_UI.h">
+      <Filter>Source Files\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="_Misc.h">
+      <Filter>Source Files\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="_Tree.h">
+      <Filter>Source Files\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="_Props.h">
+      <Filter>Source Files\Sub</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Fileman.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FilemanDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Misc.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\StringUtil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\WinUtil.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MltiTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\dt_query.c">
+      <Filter>utils\datatree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\dt_rbtree.c">
+      <Filter>utils\datatree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\dt_stack.c">
+      <Filter>utils\datatree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\dt_core.c">
+      <Filter>utils\datatree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\dt_cpp_helper.cpp">
+      <Filter>utils\datatree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\dt_encoding.c">
+      <Filter>utils\datatree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\rb_tree\stack.c">
+      <Filter>utils\datatree\rb_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\rb_tree\red_black_tree.c">
+      <Filter>utils\datatree\rb_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Rflx.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\Rflext.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXml\tinystr.cpp">
+      <Filter>tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXml\tinyxml.cpp">
+      <Filter>tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXml\tinyxmlerror.cpp">
+      <Filter>tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXml\tinyxmlparser.cpp">
+      <Filter>tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyXml\tinyxmlAdd.cpp">
+      <Filter>tinyXml</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\datatree\rb_tree\_misc.c">
+      <Filter>utils\datatree\rb_tree</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lapi.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lauxlib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lbaselib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lcode.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldblib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldebug.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldo.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ldump.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lfunc.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lgc.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\linit.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\liolib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\llex.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmathlib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lmem.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loadlib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lobject.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lopcodes.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\loslib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lparser.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstate.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstring.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lstrlib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltable.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltablib.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\ltm.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lua.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\luac.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lundump.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lvm.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\lzio.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="lua\print.cpp">
+      <Filter>lua</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\ScriptApi.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\lua_tinker.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="utils\LuaFunctor.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyThread\tinythread.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorSettings.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Fileman.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Fileman.rc2">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="resource.hm">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ImageList.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\64.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

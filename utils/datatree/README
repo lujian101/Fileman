@@ -1,0 +1,89 @@
+Datatree syntax:
+
+OBJECT ::= "{" {MEMBERS} "}"
+
+MEMBERS ::= PAIR {"," MEMBERS}
+
+PAIR ::= VALUE ":" VALUE
+
+ARRAY ::= "[" ELEMENTS "]"
+
+ELEMENTS ::= VALUE {"," ELEMENTS}
+
+VALUE ::= null
+        | BOOL
+        | NUMBER
+        | STRING
+        | OBJECT
+        | ARRAY
+
+BOOL ::= true | false
+
+NUMBER ::= byte | ubyte | short | ushort | int | uint | long | ulong | single | double
+
+STRING ::= double_quote charactors double_quote | charactors
+
+
+Command syntax:
+
+COMMAND ::= SELECT_CLAUSE
+          | FROM_CLAUSE
+          | INSERT_CLAUSE
+          | DELETE_CLAUSE
+          | UPDATE_CLAUSE
+          | CREATE_CLAUSE
+          | OPEN_CLAUSE
+          | CLOSE_CLAUSE
+          | SYNC_CLAUSE
+          | PUSH_CLAUSE
+          | POP_CLAUSE
+          | PEEK_CLAUSE
+
+SELECT_CLAUSE ::= ("select" | "SELECT") PATH
+
+FROM_CLAUSE ::= ("from" | "FROM") ARRAY
+                [WHERE_CLAUSE]
+                SELECT_CLAUSE
+                [ORDERBY_CLAUSE]
+
+WHERE_CLAUSE ::= ("where" | "WHERE") EXPR
+
+ORDERBY_CLAUSE ::= ("orderby" | "ORDERBY") PATH
+
+INSERT_CLAUSE ::= ("insert" | "INSERT") PATH
+                  [WHERE_CLAUSE]
+                  VALUE_CLAUSE
+
+DELETE_CLAUSE ::= ("delete" | "DELETE") PATH
+                  WHERE_CLAUSE
+
+UPDATE_CLAUSE ::= ("update" | "UPDATE") PATH
+                  WHERE_CLAUSE
+                  VALUE_CLAUSE
+
+CREATE_CLAUSE ::= ("create" | "CREATE") [VARIABLE "="] datatree_source_text
+
+VALUE_CLAUSE ::= ("value" | "VALUE") datatree_value_text {"," datatree_value_text}
+
+OPEN_CLAUSE ::= ("open" | "OPEN") file_path
+
+CLOSE_CLAUSE ::= ("close" | "CLOSE")
+
+SYNC_CLAUSE ::= ("sync" | "SYNC") [file_path]
+
+PUSH_CLAUSE ::= ("push" | "PUSH") var_name
+
+POP_CLAUSE ::= ("pup" | "POP") var_name
+
+PEEK_CLAUSE ::= ("peek" | "PEEK") var_name
+
+PATH ::= PATH_NODE {"," PATH_NODE}
+
+ARRAY ::= PATH
+
+PATH_NODE ::= datatree_value_text "=" PATH
+            | [VARIABLE] | ["." datatree_value_text | "<" datatree_object_member_index ">" | "<" datatree_array_index ">"]
+
+EXPR ::= datatree_value_compare_expression
+
+VARIABLE ::= "$" datatree_variable

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<RflxOTLib Name="Fileman" Version="1.0">
+  <Class Name="CommonSettings" BaseClassName="" Description="Common settings for all elements">
+    <PropDef Name="Description" Type="string">
+      <DefaultVal></DefaultVal>
+    </PropDef>
+    <PropDef Name="Language" Type="string" Description="Language only file flag" Editor="chs, cht, kor, jpn, eng, vet, ">
+      <DefaultVal>chs</DefaultVal>
+    </PropDef>
+    <PropDef Name="Package" Type="string" Editor="0,1,2,3,4,5,6,7,8,9" Description="Which package belongs to? (seperate ids with , or ;)">
+      <DefaultVal>0</DefaultVal>
+    </PropDef>
+  </Class>
+  <Class Name="DirectorySettings" BaseClassName="CommonSettings" Description="Common settings for all directory">
+    <PropDef Name="Build" Type="bool" Description="">
+      <DefaultVal>false</DefaultVal>
+    </PropDef>
+  </Class>
+  <Class Name="FileSettings" BaseClassName="CommonSettings" Description="Common settings for all files">
+    <PropDef Name="Build" Type="bool" Description="Is this file needs to be build?">
+      <DefaultVal>true</DefaultVal>
+    </PropDef>
+  </Class>
+</RflxOTLib>

@@ -1,0 +1,11 @@
+{
+	#0 : {
+		@SerializedSettings : {
+			"\"Settings\"" : {
+				Build : false,
+				Language : chs,
+				Package : 0
+			}
+		}
+	}
+}

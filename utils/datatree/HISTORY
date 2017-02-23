@@ -1,0 +1,51 @@
+Aug. 21, 2012
+Implemented datatree editor.
+Added a function to clear a command.
+Fixed an object key query bug.
+Fixed a redestroy bug when destroy a command.
+Fixed a memory overflow bug when creating a value from formatted string.
+Fixed a query return status bug.
+
+May. 25, 2012
+Implemented SAD APIs in core.
+Added an indicator parameter which indicates whether use raw memory to compare two number value or not.
+Improved error handling.
+Raised an error if there are some redundance charactors left after a datatree is parsed.
+Fixed a parsing buffer overflow bug when load from a file.
+Fixed an array overflow bug when parsing an escape unicode.
+Fixed an array overflow bug when formatting a double number.
+Fixed long string value parsing issue.
+Removed some useless functions.
+
+Apr. 30, 2012
+Implemented DotNet wrapper for query APIs.
+Implemented statistics.
+Added dt_parse_command function.
+Did not parse command in dt_create_command.
+Refactored string operations.
+Fixed value formatting bug when a string comes with an escape.
+
+Apr. 21, 2012
+Implemented FROM query statement.
+Implemented WHERE query statement.
+Implemented SELECT query statement.
+Implemented ORDERBY query statement.
+Implemented _this_, _len_ buildin attributes.
+Implemented DotNet wrapper and related test cases.
+Added dt_create_value_ex function.
+Added dt_value_data_length function.
+Readonly bugfix.
+Numeric value compress.
+String formatting bugfix.
+
+Apr. 7, 2012
+Implemented value accessing via a string path.
+Implemented object, array readonly features.
+Added customized error handler to value creation function.
+Added dt_status_message.
+Do not add double quotes for short string without blank chars.
+Fixed a bug when creating a value without a valid datatree.
+Fixed some bugs and mistakes.
+
+Feb. 29, 2012
+First version.
