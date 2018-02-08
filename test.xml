@@ -1,0 +1,20 @@
+<DirTree>
+    <Directory DirName="test" Resolved="true">
+        <File Resolved="true" FileName="chinese.txt">
+            <PropertyList>
+                <Property Name="Language" Value="chs" />
+                <Property Name="Package" Value="1" />
+            </PropertyList>
+        </File>
+        <File Resolved="true" FileName="demo_file_matcher.lua" />
+        <File Resolved="true" FileName="demo_package_exporter.lua" />
+        <Directory DirName="folder" Resolved="true">
+            <File Resolved="true" FileName="english.txt">
+                <PropertyList>
+                    <Property Name="Language" Value="eng" />
+                    <Property Name="Package" Value="2" />
+                </PropertyList>
+            </File>
+        </Directory>
+    </Directory>
+</DirTree>

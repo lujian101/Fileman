@@ -1,7 +1,7 @@
 local xstr = require "Lib.xstr"
 
 local context = {
-    exportPkgs = { 1, 2 },
+    exportPkgs = { 0 },
 	languages = {},
     fileName = "c:\\export.fls",
     fileList = {},
